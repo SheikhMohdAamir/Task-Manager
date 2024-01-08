@@ -29,6 +29,7 @@ const SignUpForm = (props) => {
       alert(err.response.data);
       console.log(err);
     }
+    props.changeHandler()
   };
   return (
     <div>
